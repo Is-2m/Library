@@ -68,7 +68,7 @@ namespace Library
             
             cb_aut_ref(LstAut);
             cb_dom_ref(lstDom);
-            cb_thm_ref(lstDom[SelectedDom].LstT);
+            //  cb_thm_ref(lstDom[SelectedDom].LstT); // i dont need to load the themes while the form is loaading 
             cb_type_ref();
             mode();
         }
